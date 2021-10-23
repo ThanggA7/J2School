@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bai 2 css</title>
+</head>
+<style type="text/css">
+      /*RESET CSS*/
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+    /* MAIN */
+    #main{
+    	width: 100%;
+    	height: 700px;
+    /*	background: yellow;*/
+    }
+    #trai_sanho{
+       width: 20%;
+       height: 700px;
+       background: black;
+       float: left;
+    }
+    #vien_sanho{
+    	width: 5%;
+	    height: 100%;
+    	background-image: url("C:/Users/awngs/Downloads/Bai 5.2 - My Thuat-20211023T144505Z-001/Bai 5.2 - My Thuat/IMAGES/soc.jpg");
+    	float: left;
+    }
+
+    #bg_sua{
+			width: 60%;
+			height: 100%;
+			background-image: url('C:/Users/awngs/Downloads/Bai 5.2 - My Thuat-20211023T144505Z-001/Bai 5.2 - My Thuat/IMAGES/sua1.gif');
+			background-repeat: no-repeat;
+			background-position: center;
+			float: left;
+             position: relative;
+
+    }
+    #table {
+    	bottom: 0;
+    	top: 110px;
+    	left: 35%;
+        width: 450px;
+        height: 600px;
+    	position: absolute;
+    	background: #A5F8A8;
+    }
+      #invite{
+    	width: 700px;
+    	height: 110px;
+    	background: ;
+    	position: absolute;
+    	left: 50px;
+    }
+    #sua_doc{
+    	width: 150px;
+    	height: 110px;
+    	background: ;
+    	position: absolute;
+    	/*background: yellow;*/
+    	left: 850px;
+    }
+</style>
+
+<body>
+<div id="main">
+	<div id="trai_sanho">
+		<img src="C:/Users/awngs/Downloads/Bai 5.2 - My Thuat-20211023T144505Z-001/Bai 5.2 - My Thuat/IMAGES/sanho.gif">
+	</div>
+	<div id="vien_sanho">
+		
+	</div>
+	<div id="bg_sua">
+<div id="invite">
+	<h1 style="color: #EF9774; font-size: 50px;">THAM GIA CLB</h1>
+	<p style="position: absolute; left: 25px; top: 50%;">Qúy độc giả hãy điền đầy đủ thông tin để tham gia phát triển Câu lạc bộ <br>ngày càng vững mạnh hơn.</p>
+	<br>
+</div>
+<div id="sua_doc">
+	<table>
+		<tr>
+			<td>
+				<img src="https://2.pik.vn/2021dba4f7e7-1cf8-41db-9987-3e5e87b1c3f6.jpg">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="https://2.pik.vn/20211d5bed4c-2201-4aa2-b026-beb95aa5c618.jpg">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="https://2.pik.vn/20211de0ba79-5a2f-4eed-a271-273720441dd0.jpg">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="https://2.pik.vn/202145510dab-880a-4f53-afa1-49da90fce332.jpg">
+			</td>
+		</tr>
+	</table>
+</div>
+		
+	</div>
+	<div id="table" >
+<form>
+			<table >
+			<tr>
+				<td>
+					Họ Và Tên:
+				</td>
+				<td>
+					<input type="text" size="30"> *
+				</td>
+			</tr>
+			<br>
+			<tr>
+				<td>
+					<br>
+					Địa chỉ:
+				</td>
+				<td>
+					<br>
+					<input type="text" size="45"> *
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<br>
+					Email:
+				</td>
+				<td>
+					<br>
+					<input type="text" size="25"> *
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<br>
+					Điện thoại:
+				</td>
+				<td>
+					<br>
+					<input type="number"> *
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<br>
+					Ngày Sinh:
+				</td>
+				<td>
+					<input type="type" size="5"> / <input type="type" size="5"> / <input type="type" size="5"> *
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<br>
+					Đề tài:
+				</td>
+				<td>
+					<br>
+					<select>
+						<option>
+							Tìm hiểu sứa biển
+						</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Nhóm:
+				</td>
+				<td>
+					<br>
+					<input type="radio" name="nhom"> Nghiên cứu
+					<br>
+					<input type="radio" name="nhom"> Hải ngư
+					<br>
+					<input type="radio" name="nhom"> Viễn dương
+					<br>
+					<input type="radio" name="nhom"> Mỹ thuật
+					<br>
+					<input type="radio" name="nhom"> Thực phẩm
+					<br>
+					<input type="radio" name="nhom"> Sinh viên
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<br>
+					Gửi hình:
+				</td>
+				<td>
+					<br>
+					<input type="file"> *
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<br>
+					Tài liệu:
+				</td>
+				<td>
+					<input type="checkbox"> Sinh vật biển
+					<br>
+					<input type="checkbox"> Các loài sứa biển
+					<br>
+					<input type="checkbox"> San hô
+					<br>
+					<input type="checkbox"> Môi trường biển
+					<br>
+					<input type="checkbox"> Khí hậu	
+					<br>
+				</td>
+			</tr>
+          <tr>
+          <td>
+          <br>	
+          	<button>Tham gia</button>
+          </td>
+          <td>
+          	<br>
+          	<button type="reset">Xóa thông tin</button>
+          </td>
+          </tr>	
+		</table>
+</form>
+	</div>
+</div>
+</body>
+</html>
