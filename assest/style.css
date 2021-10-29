@@ -43,7 +43,7 @@ body{
     position: relative;
     top: 246px;
     left: 40px;
-    background-image: url("*https://2.pik.vn/2021802700b4-080e-492f-9c2a-48933ae8dffb.jpg"); /*https://2.pik.vn/2021802700b4-080e-492f-9c2a-48933ae8dffb.jpg*/
+    background-image: url(https://2.pik.vn/2021802700b4-080e-492f-9c2a-48933ae8dffb.jpg); /*https://2.pik.vn/2021802700b4-080e-492f-9c2a-48933ae8dffb.jpg*/
     background-repeat: no-repeat;
     border: 1px solid;
     padding: 10px;
@@ -113,7 +113,7 @@ body{
     position: relative;
     left: 40px;
     top: 67px;
-    background-image: url("https://2.pik.vn/202130bdbcf9-3571-4d36-9210-77ad9d8b5c1d.jpg"); /*https://2.pik.vn/202130bdbcf9-3571-4d36-9210-77ad9d8b5c1d.jpg*/
+    background-image: url(https://2.pik.vn/202130bdbcf9-3571-4d36-9210-77ad9d8b5c1d.jpg); /*https://2.pik.vn/202130bdbcf9-3571-4d36-9210-77ad9d8b5c1d.jpg*/
     background-repeat:no-repeat ;
     border: 1px solid;
     padding: 10px;
@@ -182,7 +182,7 @@ body{
     position: relative;
     left: 900px;
     top: -1087px;
-    background-image: url("https://2.pik.vn/2021fa97fd26-06b3-453b-b983-e0d56ce7261d.jpg"); /*https://2.pik.vn/2021fa97fd26-06b3-453b-b983-e0d56ce7261d.jpg*/
+    background-image: url(https://2.pik.vn/2021fa97fd26-06b3-453b-b983-e0d56ce7261d.jpg); /*https://2.pik.vn/2021fa97fd26-06b3-453b-b983-e0d56ce7261d.jpg*/
     background-repeat: no-repeat;
     padding: 10px;  
     border: 2px solid #dddd;
