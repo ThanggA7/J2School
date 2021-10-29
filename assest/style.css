@@ -43,7 +43,7 @@ body{
     position: relative;
     top: 246px;
     left: 40px;
-    background-image: url(img/hinh1.jpg);
+    background-image: url(/img/hinh1.jpg);
     background-repeat: no-repeat;
     border: 1px solid;
     padding: 10px;
@@ -113,7 +113,7 @@ body{
     position: relative;
     left: 40px;
     top: 67px;
-    background-image: url(img/hinh2.jpg);
+    background-image: url(/img/hinh2.jpg);
     background-repeat:no-repeat ;
     border: 1px solid;
     padding: 10px;
@@ -182,7 +182,7 @@ body{
     position: relative;
     left: 900px;
     top: -1087px;
-    background-image: url(img/hinh3.jpg);
+    background-image: url(/img/hinh3.jpg);
     background-repeat: no-repeat;
     padding: 10px;  
     border: 2px solid #dddd;
